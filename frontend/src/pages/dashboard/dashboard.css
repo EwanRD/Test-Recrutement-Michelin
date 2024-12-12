@@ -1,0 +1,7 @@
+.Dashboard {
+  display: flex;
+}
+
+.wrapper {
+  flex-grow: 1;
+}

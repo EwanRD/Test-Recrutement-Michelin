@@ -1,0 +1,50 @@
+.Book {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 0.39fr;
+  width: 99%;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #c1d6ef;
+  /* Autant de colonnes que nécessaire */
+  align-items: center;
+  /* Ligne de séparation pour le style */
+}
+
+.Book p {
+  margin: 0;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.Book #buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.Book #buttons button,
+.Book #buttons button svg {
+  width: 35px;
+  height: auto;
+}
+
+.Book #buttons button {
+  background-color: transparent;
+  border: none;
+}
+
+.Book #buttons button:hover {
+  cursor: pointer;
+}
+
+.Book #buttons #edit svg {
+  color: #3a61a6;
+}
+
+.Book #buttons #delete svg {
+  color: #b71c1c;
+}
+
+#withButtons {
+  grid-template-columns: 1fr 1fr 1fr 1fr 0.39fr;
+}

@@ -1,0 +1,109 @@
+.Overview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.Overview #visData {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 45%;
+}
+
+.Overview #visData #left,
+#filters {
+  margin: 50px;
+}
+
+.Overview #visData #left {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.Overview #visData .datas {
+  overflow-x: hidden;
+  overflow-y: auto;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-height: 280px;
+  background-color: white;
+  border: solid 1px lightgray;
+  border-radius: 15px;
+  /* Permet le défilement vertical uniquement */
+  display: flex;
+  /* Ajustez la hauteur selon vos besoins */
+  padding: 10px;
+  /* Pour que le contenu reste clair */
+}
+
+.Overview #visData #left input {
+  width: 95%;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border: solid 1px lightgray;
+  border-radius: 8px;
+}
+
+/* En-tête optionnel pour les colonnes */
+.Overview .Book-header {
+  position: sticky;
+  top: 0;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 0.38fr;
+  width: 99%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  background-color: white;
+  border-bottom: 2px solid #fce817;
+  transform: translateY(-10px);
+}
+
+.Overview .Book-header p {
+  margin: 0;
+}
+
+.Overview #filters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.Overview #filters h2 {
+  margin: 0;
+}
+
+.Overview #filters select {
+  width: 250px;
+  padding: 5px;
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+.Overview select:focus,
+input:focus {
+  outline: #3a61a6 1px solid;
+}
+
+.Overview #graphique {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 50%;
+}
+
+.Overview #graphique canvas {
+  width: 1000px;
+}

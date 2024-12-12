@@ -1,0 +1,46 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "giphurs";
+  width: 100%;
+  margin: 0;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: "radlush_bold";
+}
+
+hr {
+  width: 70%;
+  color: black;
+  border: 1px solid black;
+}
+
+.button {
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #6558f5;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  transition: all 0.6s;
+}
+
+.button:hover {
+  color: #6558f5;
+  background-color: transparent;
+  border: 2px solid #6558f5;
+}
+
+@font-face {
+  font-family: "radlush_bold";
+  src: url(../fonts/radlush/OTF/Radlush-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "giphurs";
+  src: url(../fonts/giphurs/fonts/variable/Giphurs[wght].ttf);
+}

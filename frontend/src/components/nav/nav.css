@@ -1,0 +1,44 @@
+.Nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 350px;
+  height: 100vh;
+}
+
+.Nav div {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  margin-left: -55px;
+}
+
+.Nav div a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+}
+
+.Nav div a:hover {
+  color: #27509b;
+}
+
+.Nav div a:hover svg {
+  color: #27509b;
+}
+
+.Nav div a svg {
+  width: 25px;
+  height: auto;
+  color: black;
+  transition: all 0.3s;
+}
+
+.Nav .active,
+.active svg {
+  color: #27509b !important;
+}
