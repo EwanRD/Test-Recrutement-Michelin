@@ -136,12 +136,14 @@
   background: #f0f0f0;
 }
 
-.Books .overlay-buttons #ajouter {
+.Books .overlay-buttons #ajouter,
+#sauvegarder {
   color: white;
   background-color: #3a61a6;
 }
 
-.Books .overlay-buttons #ajouter:hover {
+.Books .overlay-buttons #ajouter:hover,
+#sauvegarder:hover {
   color: #3a61a6;
   background-color: transparent;
   border: #3a61a6 2px solid;

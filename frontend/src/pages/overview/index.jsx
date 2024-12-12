@@ -138,7 +138,7 @@ function Overview() {
         <div id="left">
           <input
             type="search"
-            placeholder="Rechercher..."
+            placeholder="Rechercher par titre, auteur ou catégorie"
             onChange={(e) => handleSearchChange(e.target.value)}
           />
           <div className="datas">
@@ -210,7 +210,7 @@ function Overview() {
             }}
           />
         ) : (
-          <p>Chargement du graphique...</p>
+          <p>Pas de livres, pas de graphique !</p>
         )}
       </section>
     </div>
