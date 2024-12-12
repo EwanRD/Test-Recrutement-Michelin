@@ -99,7 +99,7 @@ DB_PASSWORD=admin
 Lancez le serveur backend :
 
 ```bash
-npm start
+node index.js
 ```
 
 #### 4. Lancer le Frontend
